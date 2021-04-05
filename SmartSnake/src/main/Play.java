@@ -1,5 +1,9 @@
+package main;
+
+import game.Game;
+
 public class Play {
 	public static void main(String[] args) {
-		System.out.println("Ping");
+		new Game("Snake", 90, 160);
 	}
 }
